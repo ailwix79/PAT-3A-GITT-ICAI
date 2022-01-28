@@ -1,0 +1,67 @@
+﻿h1	{
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		font-family: helvetica;
+		text-shadow: 2px 2px 5px green;
+	}
+
+h2	{
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;
+		font-family: helvetica;
+	}
+
+div	{
+		text-align: center;
+		font-size: 14px;
+		font-family: Helvetica;
+	}
+
+.titulos{
+		font-size: 16px;
+		font-weight: bold;
+		color: black;
+	}
+		
+span	{
+		color: green;
+	}
+
+a	{
+		color: purple;
+		font-family: helvetica;
+		font-weight: bold;
+		font-size: 11px;
+	}
+		
+.bloque_info{
+		border-style: solid;
+		border-width: 5px;
+		border-radius: 5px;
+		border-color: blue;
+		font-weight: bold;
+		width: 500px;
+		height: 300px;
+		display: inline-block;
+		margin: 15px;
+		padding: 15px;
+		background-size: 200px 200px;
+	}
+
+#bloque1{
+		background-image: url("html1.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+#bloque2{
+		background-image: url("html2.png");
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+		
+
+
+		
