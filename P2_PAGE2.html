@@ -9,8 +9,16 @@
 	</head>									
 	
 	<body bgcolor="#E6E6FA">						
-		<video width="1000" height="1000" controls>
-		<source src="telfvideo.mp4" type="video/mp4">
+		
+		<form action="./P2_PAGE3.html" method="post" align="center">
+			<label for="mail">Nombre</label><br>
+			<input required="required" placeholder="Introduce una dirección" type="name" id="name" name="user_name"><br>
+			<label for="mail">Correo</label><br>
+			<input required="required" placeholder="Introduce una dirección" type="email" id="mail" name="user_email"><br>
+			<label for="msg">Hablanos de ti</label><br>
+			<textarea id="msg" required="required" placeholder="Cuentanos tu duda" name="user_message"></textarea><br>
+			<button type="submit">Enviar</button><br>
+		</form>
 	</body>	
 	
 </html>										
