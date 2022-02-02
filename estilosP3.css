@@ -11,6 +11,12 @@ h1 {
     text-align: center;
 }
 
+.telefonica_logo {
+    text-align: center;
+    width:50%;
+    height:50%;
+}
+
 h4 {
     font-family: 'Roboto', sans-serif, 'arial';
     font-weight: 400;
