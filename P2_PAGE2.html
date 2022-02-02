@@ -6,19 +6,21 @@
 		<meta name="author" content="Alejandro López">
 		<meta name="description" content="practica2">
 		<meta name="keywords" content="ejercicio, practica">
+		<link rel="stylesheet" href="estilosP2.css" type="text/css"/>
 	</head>									
 	
-	<body bgcolor="#E6E6FA">						
-		
-		<form action="./P2_PAGE3.html" method="post" align="center">
-			<label for="mail">Nombre</label><br>
-			<input required="required" placeholder="Introduce una dirección" type="name" id="name" name="user_name"><br>
-			<label for="mail">Correo</label><br>
-			<input required="required" placeholder="Introduce una dirección" type="email" id="mail" name="user_email"><br>
-			<label for="msg">Hablanos de ti</label><br>
-			<textarea id="msg" required="required" placeholder="Cuentanos tu duda" name="user_message"></textarea><br>
-			<button type="submit">Enviar</button><br>
-		</form>
+	<body bgcolor="#87CEFA">						
+		<hr>
+		<form class="form">
+			<h2>TRABAJA CON NOSOTROS</h2>
+			<p type="Nombre:"><input placeholder="Escribe tu nombre completo"></input></p>
+			<p type="Email:"><input placeholder="Tu correo de contacto"></input></p>
+			<p type="Hablanos de ti:"><input placeholder="¿Porqúe Telefónica?"></input></p>
+			<label for="photo">Envianos tu CV</label>
+			<input type="file" id="CV" name="CV" accept="document/*">
+			<button>Subir CV</button>
+		  </form>
+		<hr>
 	</body>	
 	
 </html>										
