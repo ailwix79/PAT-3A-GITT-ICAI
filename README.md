@@ -10,3 +10,5 @@ P2_PAGE2. Página de trabaja con nosotros. Se incluye una opción para subir fic
 P2_PAGE3. Página de contacto con la empresa. Formulario simple con CSS Open Source.
 
 P2_PAGE4. Página con video.
+
+En prácticas posteriores se harán funcionales los cuestionarios y el elemento de subida de archivos.
