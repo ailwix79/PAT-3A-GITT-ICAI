@@ -11,15 +11,16 @@
 	
 	<body bgcolor="#87CEFA">						
 		<hr>
-		<form class="form">
+		<form method="post" id="submit">
 			<h2>TRABAJA CON NOSOTROS</h2>
-			<p type="Nombre:"><input placeholder="Escribe tu nombre completo"></input></p>
-			<p type="Email:"><input placeholder="Tu correo de contacto"></input></p>
-			<p type="Hablanos de ti:"><input placeholder="¿Porqúe Telefónica?"></input></p>
+			<p type="Nombre:"><input placeholder="Escribe tu nombre completo" id="name"></input></p>
+			<p type="Email:"><input placeholder="Tu correo de contacto" id="email"></input></p>
+			<p type="Hablanos de ti:"><textarea placeholder="¿Porqúe Telefónica?" id="message"></textarea></p>
 			<label for="photo">Envianos tu CV</label>
 			<input type="file" id="CV" name="CV" accept="document/*">
-			<button>Subir CV</button>
-		  </form>
+			<button type="submit">Subir Informacion</button>
+		</form>
+		<script src="./conf.js"></script>
 		<hr>
 	</body>	
 	
